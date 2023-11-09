@@ -1,0 +1,159 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+:root {
+    --dark-grey: rgb(53, 53, 53);
+    --white-font: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    margin: 35px 0;
+}
+
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+
+.nav-item {
+    font-size: 1.5rem;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    color: grey;
+    transition: ease 300ms all;
+
+}
+
+#logo {
+    font-size: 2rem;
+}
+
+#profile-pic {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 1%;
+    border-radius: 50%;
+}
+
+#text-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    gap: 60px;
+    
+}
+
+#greeting-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+#greet {
+    font-size: 1.2rem
+}
+
+p {
+    color: var(--dark-grey);
+}
+
+#greeting-part > p {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3rem
+}
+
+#profession {
+    font-size: 1.9rem;
+}
+
+#profile-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+
+#profile-buttons > button {
+    border: var(--dark-grey) 1px solid;
+    margin-top: 5px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+#contact-btn {
+    background-color: var(--dark-grey);
+    color: var(--white-font);
+}
+
+#download-btn {
+    background-color: var(--white-font);
+}
+
+#profile-buttons > button:hover {
+    cursor: pointer;
+}
+
+#profile-buttons > button:hover{
+    transition: ease 400ms all;
+}
+
+#contact-btn:hover {
+    background-color: black;
+
+}
+
+#download-btn:hover {
+    background-color: var(--dark-grey);
+    color: var(--white-font);
+
+}
+
+#site-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.contact-sites {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
