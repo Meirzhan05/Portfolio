@@ -1,158 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div id="logo">Meirzhan</div>
-        <nav id="nav-bar">
-            <ul id="nav-list">
-                <li class="nav-item"><a href="">About</a></li>
-                <li class="nav-item"><a href="">Experience</a></li>
-                <li class="nav-item"><a href="">Projects</a></li>
-                <li class="nav-item"><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mediaquery.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">Meirzhan</div>
+            <nav id="nav-bar">
+                <ul id="nav-list">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#experience">Experience</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
+        <main>
 
-        <section id="text-logo">
-            <img src="assets/profile.jpg" id="profile-pic" alt="Meirzhan Saparov picture">
-            <div id="greeting-part">
-                <p class="subtext">Hello, I'm</p>
-                <h1 id="name">Meirzhan Saparov</h1>
-                <p id="profession">Software Engineer</p>
-                <div id="profile-buttons">
-                    <button type="button" id="download-btn">Download CV</button>
-                    <button type="button" id="contact-btn">Contact Info</button>
+            <section id="text-logo">
+                <img src="assets/profile.jpg" id="profile-pic" alt="Meirzhan Saparov picture">
+                <div id="greeting-part">
+                    <p class="subtext">Hello, I'm</p>
+                    <h1 id="name">Meirzhan Saparov</h1>
+                    <p id="profession">Software Engineer</p>
+                    <div id="profile-buttons">
+                        <button type="button" id="download-btn">Download CV</button>
+                        <button type="button" id="contact-btn">Contact Info</button>
+                    </div>
+                    <div id="site-logo">
+                        <img src="assets/linkedin.png" alt="linkedin logo" class="small-logos">
+                        <img src="assets/github.png" alt="github logo" class="small-logos">
+                    </div>
                 </div>
-                <div id="site-logo">
-                    <img src="assets/linkedin.png" alt="linkedin logo" class="small-logos">
-                    <img src="assets/github.png" alt="github logo" class="small-logos">
-                </div>
-            </div>
-        </section>
-
-        <section id="about">
-            <div class="title">
-                <p class="subtext">Get To Know More</p>
-                <h1>About Me</h1>
-            </div>
+            </section>
             
-            <div id="about-description">
-                <img src="assets/highcontrast.jpg" id="about-pic">
-                <div id="about-info">
-                    <div class="about-boxes">
-                        <img src="assets/experience.png" class="small-logos experience" id="one">
-                        <h3>Experience</h3>
-                        <p>2+ years</p>
-                        <p>Software Development</p>
-                    </div>
-                    <div class="about-boxes" id="two">
-                        <img src="assets/education.png" class="small-logos education">
-                        <h3>Education</h3>
-                        <p>Bachelors Degree</p>
-                        <p>Computer Science Major</p>
-                    </div>
-                    <p>I am currently a software engineering student at the university, where my primary focus is on crafting efficient and elegant solutions to complex problems through coding. My passion for technology drives my commitment to continuous learning and adaptation in the dynamic field of software development. I am dedicated to making a meaningful impact by contributing innovative and practical solutions to the challenges within the evolving landscape of technology.</p>
-                    <a href="#experience" class="grid-img"><img class="small-logos"  src="assets/arrow.png"></a>
+            <section id="about">
+                <div class="title">
+                    <p class="subtext">Get To Know More</p>
+                    <h1>About Me</h1>
                 </div>
-             </div>
-        <section id="experience">
-            <div class="title">
-                <p class="subtext">Explore My</p>
-                <h1>Experience</h1>
-            </div>
-            <div id="boxes">
-                <div class="box">
-                    <h2>Web Development</h1>
-                    <div class="skills">
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                            
+                
+                <div id="about-description">
+                    <img src="assets/highcontrast.jpg" id="about-pic" alt="about picture">
+                    <div id="about-info">
+                        <div class="about-boxes">
+                            <img src="assets/experience.png" class="small-logos experience" id="one" alt="experience logo">
+                            <h3>Experience</h3>
+                            <p>2+ years</p>
+                            <p>Software Development</p>
                         </div>
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
+                        <div class="about-boxes education-box" >
+                            <img src="assets/education.png" class="small-logos education" id="two" alt="education icon">
+                            <h3>Education</h3>
+                            <p>Bachelors Degree</p>
+                            <p>Computer Science Major</p>
                         </div>
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </div>
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>Django</h3>
-                                <p>Basic</p>
-                            </div>
-                        </div>
-                    </div>    
-                </div>
-                <div class="box">
-                    <h2>General Experience</h1>
-                    <div class="skills">
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>Python</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </div>
-                        <div class="list">
-                           <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>Java</h3>
-                                <p>Experienced</p>
-                            </div>
+                        <p>I am currently a software engineering student at the university, where my primary focus is on crafting efficient and elegant solutions to complex problems through coding. My passion for technology drives my commitment to continuous learning and adaptation in the dynamic field of software development. I am dedicated to making a meaningful impact by contributing innovative and practical solutions to the challenges within the evolving landscape of technology.</p>
+                    </div>
 
-                        </div>
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Basic</p>
+                </div>
+                <a href="#experience" class="grid-img"><img class="small-logos arrow"  src="assets/arrow.png" alt="arrow icon"></a>
+            </section>
+            <section id="experience">
+                <div class="title">
+                    <p class="subtext">Explore My</p>
+                    <h1>Experience</h1>
+                </div>
+                <div id="boxes">
+                    <div class="box">
+                        <h2>Web Development</h2>
+                        <div class="skills">
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>Photoshop</h3>
-                                <p>Basic</p>
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="list">
-                            <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>Illustrator</h3>
-                                <p>Basic</p>
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Intermediate</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="list">
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>Django</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="box">
+                        <h2>General Experience</h2>
+                        <div class="skills">
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="list">
                             <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
-                            <div>
-                                <h3>After Effects</h3>
-                                <p>Basic</p>
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Intermediate</p>
+                                </div>
+
+                            </div>
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>Photoshop</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>Illustrator</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <img src="assets/checkmark.png" alt="checkmark" class="small-logos">
+                                <div>
+                                    <h3>After Effects</h3>
+                                    <p>Basic</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>    
+                <a href="#projects" class="grid-img"><img class="small-logos arrow"  src="assets/arrow.png" alt="arrow icon"></a>        
+            </section>
+
+            <section id="projects">
+                <div class="title">
+                    <p class="subtext">Browse My Recent</p>
+                    <h1>Projects</h1>
                 </div>
-            </div>            
-        </section>
-    </main>
-</body>
+                <div id="project-container">
+                    <div class="project">
+                        <h2>Calculator</h2>
+                        <p>This project is a simple yet powerful web-based calculator. It's designed to perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                    </div>
+                    <div class="project">
+                        <h2>Admin Dashboard</h2>
+                        <p>This project is a simple yet powerful web-based calculator. It's designed to perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
